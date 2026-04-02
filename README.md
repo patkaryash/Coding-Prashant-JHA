@@ -2,8 +2,8 @@
 
 This repository contains beginner-friendly Python practice programs and notes.
 Right now, the codebase is focused on `DAY1`, which covers Python basics such as
-data types, typecasting, input handling, operators, conditionals, and simple
-logic-building exercises.
+data types, typecasting, input handling, operators, conditionals, nested
+conditions, and simple logic-building exercises.
 
 ## Project Structure
 
@@ -15,6 +15,8 @@ Coding-Prashant-JHA/
     ├── 2.py
     ├── 3.py
     ├── 4.py
+    ├── authlogin.py
+    ├── case.py
     ├── conditional.py
     ├── control_statement.py
     ├── DAY 1 notes.txt
@@ -22,11 +24,15 @@ Coding-Prashant-JHA/
     ├── height.py
     ├── identityoperator.py
     ├── marks.py
+    ├── marks,%,gender.py
     ├── membershipoperator.py
+    ├── nested.py
+    ├── notes.py
     ├── reverse.py
     ├── simpleinterest.py
     ├── swap.py
-    └── typecasting.py
+    ├── typecasting.py
+    └── weeks.py
 ```
 
 ## Topics Covered
@@ -39,7 +45,13 @@ Coding-Prashant-JHA/
 - Membership and identity operators
 - Taking user input and converting values
 - Conditional checks for positive, negative, and zero
+- Character classification using ASCII values
 - Finding the greatest among multiple numbers
+- Nested `if` statements
+- Weekday and weekend checks
+- Marks, percentage, and eligibility logic
+- Login condition practice
+- Currency/change calculation
 - Small number-based practice problems
 
 ## File Overview
@@ -54,10 +66,16 @@ Coding-Prashant-JHA/
 - `DAY1/conditional.py`: checks whether a number is positive, negative, or zero
 - `DAY1/greater.py`: finds the greatest among five input numbers
 - `DAY1/marks.py`: calculates total and percentage from three subject marks
+- `DAY1/marks,%,gender.py`: calculates percentage and checks job eligibility using marks and gender
 - `DAY1/height.py`: converts height from feet to inches and centimeters
 - `DAY1/simpleinterest.py`: calculates simple interest
 - `DAY1/swap.py`: swaps two values without using a temporary variable
 - `DAY1/reverse.py`: reverses fixed 3-digit and 6-digit numbers manually
+- `DAY1/notes.py`: calculates how many currency notes are needed for a total amount
+- `DAY1/case.py`: identifies uppercase, lowercase, digit, or special character using ASCII values
+- `DAY1/weeks.py`: checks whether an entered day is a weekday or weekend
+- `DAY1/nested.py`: finds the greatest value among three numbers using nested `if`
+- `DAY1/authlogin.py`: simple username and password comparison exercise
 - `DAY1/control_statement.py`: currently empty placeholder file
 - `DAY1/DAY 1 notes.txt`: short handwritten-style notes on Python basics
 
@@ -76,4 +94,4 @@ directly.
 
 This repo works well as a personal learning log for Python fundamentals. It is
 organized as small, focused exercises that are easy to run, understand, and
-extend while practicing core programming concepts.
+extend while practicing core programming concepts step by step.
