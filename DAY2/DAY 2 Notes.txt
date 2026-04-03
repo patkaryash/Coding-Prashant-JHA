@@ -8,3 +8,5 @@ tuple is immutable
 
 diff bw list and tuple: if clients requirements are not going to change then we use tuple but
  if the client says that the requirements may change in future then we use list
+
+zip () onsode we can takek multiple range function and print them together
