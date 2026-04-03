@@ -38,6 +38,9 @@ Collection and loop practice:
 - string formatting
 - tuples and immutability
 - aliasing notes
+- array-distance and product-style problems
+- basic string counting and anagram checks
+- BODMAS / expression evaluation practice
 
 ## File Guide
 
@@ -84,6 +87,14 @@ Collection and loop practice:
 | `DAY2/duplicates.py` | Duplicate-related practice |
 | `DAY2/control1.py` | Control-flow practice |
 | `DAY2/tuple.py` | Tuple basics |
+| `DAY2/commonelements.py` | Find common elements in multiple lists |
+| `DAY2/distancesum.py` | Sum of distances between adjacent numbers |
+| `DAY2/distsum.py` | Input-based adjacent distance sum program |
+| `DAY2/product.py` | Product of array except self |
+| `DAY2/countwords.py` | Count words in a string |
+| `DAY2/anagrams.py` | Check whether two strings are anagrams |
+| `DAY2/tasks.py` | Mixed practice tasks and loop examples |
+| `DAY2/Bodmas.py` | BODMAS / arithmetic expression practice |
 | `DAY2/DAY 2 Notes.txt` | Notes on slicing, lists, tuples, and aliasing |
 
 ## How to Run
