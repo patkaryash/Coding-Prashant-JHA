@@ -10,3 +10,7 @@ Q.How many types of argument we can pass in function
 2.Keyword argument 
 3.Default argument 
 4.Variable number of argument / variable length argument 
+
+1. rstrip() ==> TO remove spaces at right hand side
+2. lstrip()==> To remove spaces at left hand side
+3. strip() ==> To remove spaces both sides

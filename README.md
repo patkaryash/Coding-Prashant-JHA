@@ -53,7 +53,7 @@ Collection and loop practice:
 
 ### DAY3
 
-Functions, dictionaries, and more loop practice:
+Functions, dictionaries, and more structured practice:
 
 - defining and calling functions
 - positional arguments and input handling
@@ -61,8 +61,10 @@ Functions, dictionaries, and more loop practice:
 - duplicate keys and dictionary identity notes
 - finding the key with the minimum value
 - majority element practice
+- menu-driven calculator functions
 - nested for-loop triangle patterns
 - rearranging positive and negative numbers
+- string trimming and `rstrip()` practice
 
 ## File Guide
 
@@ -131,11 +133,13 @@ Functions, dictionaries, and pattern exercises that build on the earlier days.
 | --- | --- |
 | `DAY3/functions.py` | Basic function definition and arithmetic return values |
 | `DAY3/argumentfun.py` | Positional argument / login example |
+| `DAY3/functionQuiz.py` | Menu-driven calculator using functions |
 | `DAY3/dictionary.py` | Dictionary basics, key-value access, and updates |
 | `DAY3/dictQuiz.py` | Dictionary practice questions and minimum-value key search |
 | `DAY3/majorityelement.py` | Majority element practice using list counting |
 | `DAY3/nestedfor.py` | Nested `for` loop pattern practice |
 | `DAY3/rearrange.py` | Rearranging positive and negative numbers |
+| `DAY3/stripfun.py` | String trimming and `rstrip()` practice |
 | `DAY3/DAY3 notes.txt` | Notes on functions, dictionaries, and nested loops |
 
 ## How to Run
