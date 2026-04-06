@@ -23,17 +23,33 @@
 # obj = Hod()
 # obj.info()
 
-class New:  #constructor is used to initialize the instance variables
-    def __init__(self):  #constructor
-        self.a = 10      #instance variable
+# class New:  #constructor is used to initialize the instance variables
+#     def __init__(self):  #constructor
+#         self.a = 10      #instance variable
         
-obj1 = New()        #object creation
-obj2 = New()        #object creation
-obj3 = New()        #object creation
-print(obj1.a)  #10
-print(obj2.a)  #10
-print(obj3.a)  #10
-obj1.a = 20
-print(obj1.a)  #20
-print(obj2.a)  #10
-print(obj3.a)  #10
+# obj1 = New()        #object creation
+# obj2 = New()        #object creation
+# obj3 = New()        #object creation
+# print(obj1.a)  #10
+# print(obj2.a)  #10
+# print(obj3.a)  #10
+# obj1.a = 20
+# print(obj1.a)  #20
+# print(obj2.a)  #10
+# print(obj3.a)  #10
+
+
+# ---------------------------------------------------------------------
+#Constructor Overloading
+#Constructor overloading is not possible in python
+#If we define multiple constructors in a class then the last constructor will be considered as the default constructor and the previous constructors will be ignored
+class Arithmatic:
+    def __init__(self):
+        print("There is no argument")
+    def __init__(self,a):
+        print("There is one argument",a)
+    def __init__(self,a,b):
+        print("There are two arguments",a,b)
+obj1 = Arithmatic()   #TypeError: __init__() missing 2 required positional arguments: 'a' and 'b'
+obj2 = Arithmatic(10)   #TypeError: __init__() missing 1 required positional argument: 'b'
+obj3 = Arithmatic(1,2)   #There are two arguments 10 20

@@ -20,3 +20,13 @@
         3.Multiple Inheritance
 
 
+Polymorphism: means having many forms
+we can define Polymorphism as the ability of a message to be displayed in more than one form
+types: Compile time Polymorphism
+
+
+Overloading: python only supports operator overloading and does not suppor method and constuctor overloading
+Function overloading: a function having same name but different arguments then such type of function is called as function overloading
+
+
+Overriding: python supports method and constuctor Overriding
