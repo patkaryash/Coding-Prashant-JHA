@@ -1,2 +1,10 @@
 DAY 6 Start
 
+Abstract class: A class which contains one or more abstract methos is called an abstract class
+an abstract method is a methodthat has a declaration but does not have implementation
+
+While we are designing large functional units we use an abstract class.
+when we want to provide a common interface for different implementation
+we use an abstract class
+
+Encapsulation: It is a process of protecting the data and functionality in a single unit 
