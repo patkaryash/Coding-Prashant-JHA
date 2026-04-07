@@ -8,3 +8,8 @@ when we want to provide a common interface for different implementation
 we use an abstract class
 
 Encapsulation: It is a process of protecting the data and functionality in a single unit 
+
+
+Data structures: Data structures are different ways of organizinf data on your computer, that can be used effectively
+it checks the problem solving abilities 
+algorithm:             
