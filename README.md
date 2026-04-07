@@ -12,6 +12,7 @@ Coding-Prashant-JHA/
 ├── DAY3/
 ├── DAY4/
 ├── DAY5/
+├── DAY6/
 ├── myfile.txt
 ├── results1.csv
 ├── students.csv
@@ -43,6 +44,7 @@ If you want to follow the repo in order, this is the rough progression:
 3. `DAY3` - Functions, dictionaries, nested loops, and slightly more structured exercises.
 4. `DAY4` - String methods, exception handling, file handling, and CSV writing practice.
 5. `DAY5` - Object-oriented programming with classes, constructors, instance variables, inheritance, polymorphism, and a simple CRUD class project.
+6. `DAY6` - Abstraction, encapsulation, access control concepts, stack implementation, string tasks, and a Tower of Hanoi simulation.
 
 ### DAY2
 
@@ -98,6 +100,17 @@ Object-oriented programming practice and small class-based programs:
 - notes on why Python does not support traditional constructor or method overloading
 - a menu-driven CRUD example using classes
 - one extra list-based common-elements practice file
+
+### DAY6
+
+More OOP practice plus simple data-structure and string exercises:
+
+- abstraction using `ABC` and `@abstractmethod`
+- encapsulation and public/private member access practice
+- stack implementation with and without a size limit
+- string tasks like reversing each word and simple character counting
+- an even-before-odd list arrangement task
+- a step-by-step Tower of Hanoi simulation
 
 ## File Guide
 
@@ -214,6 +227,24 @@ Object-oriented programming examples that introduce classes, methods, inheritanc
 | `DAY5/static.py` | Static variable example shared across multiple objects |
 | `DAY5/staticmethod.py` | Static method examples using the `@staticmethod` decorator |
 | `DAY5/DAY5 notes.txt` | Notes on OOP, inheritance, polymorphism, overloading, and overriding |
+
+### DAY6
+
+Practice files for abstraction, encapsulation, stacks, and small logic problems.
+
+| File | Purpose |
+| --- | --- |
+| `DAY6/abstraction.py` | Abstract railway booking example using an abstract base class and multiple concrete implementations |
+| `DAY6/abstractmethod.py` | Abstract class example with different training and placement implementations |
+| `DAY6/compress.py` | Counts repeated characters in a sample string using a dictionary |
+| `DAY6/Enacapsulation.py` | Public and private variable access example in parent and child classes |
+| `DAY6/pubpvtmethod.py` | Public and private method access demonstration with inheritance |
+| `DAY6/reverseword.py` | Reverses each word in a string while keeping word order |
+| `DAY6/stackwosize.py` | Menu-driven stack implementation without a fixed size |
+| `DAY6/stackwsizelimit.py` | Menu-driven stack implementation with a maximum size check |
+| `DAY6/task.py` | Rearranges input numbers so even numbers come before odd numbers |
+| `DAY6/towerofHanoi.py` | Simulates Tower of Hanoi moves step by step using three lists |
+| `DAY6/Day 6 notes.txt` | Notes on abstraction, encapsulation, and stack concepts |
 
 ## Generated Files
 
