@@ -34,17 +34,17 @@ class Queue():
             return self.queuelist.pop(0)      
           
     def deleteQueue(self):
-        self.queuelist=None  
+        self.queuelist= []  
         return "Queue is deleted" 
     
     def peekQueue(self):
         if self.isEmpty():
             return "Queue is empty"
         else:
-            return self.queuelist[-1]  
+            return self.queuelist[0]  
             
 size = int(input("Enter the size of queue:"))
-queueobj=queue(size)         #
+queueObj=Queue(size)         #
 while True:
     
     print("1. Enqueue Element in Queue")
@@ -59,19 +59,19 @@ while True:
     print()
     if choice == 1:
         val=int(input("Enter value for queue: "))
-        queueobj.Enqueue(val)
+        queueObj.Enqueue(val)
     elif choice==2:
-        queueobj.displayQueue()    
+        queueObj.displayQueue()    
     elif choice==3:
-        print(queueobj.isEmpty())   
+        print(queueObj.isEmpty())   
         print() 
     elif choice==4:
-        print("Dequeued element is :",queueobj.Dequeue())   
+        print("Dequeued element is :",queueObj.Dequeue())   
         print() 
     elif choice==5:
-        queueobj.deleteQueue()  
+        queueObj.deleteQueue()  
     elif choice==6:
-        print("The peek element is :",queueobj.peekQueue()) 
+        print("The peek element is :",queueObj.peekQueue()) 
         print()   
     elif choice==7:
         sys.exit()    
