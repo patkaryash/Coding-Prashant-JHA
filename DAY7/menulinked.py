@@ -24,8 +24,8 @@ def addNodeBeginning(self, value):
     
 
 
-if __name__== '__main__':
-    object = LinkedList()
+    if __name__== '__main__':
+        object = LinkedList()
     
     while True:
         print('1. Add Node in LinkedList:')

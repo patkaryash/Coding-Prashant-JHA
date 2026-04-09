@@ -13,6 +13,7 @@ Coding-Prashant-JHA/
 ├── DAY4/
 ├── DAY5/
 ├── DAY6/
+├── DAY7/
 ├── myfile.txt
 ├── results1.csv
 ├── students.csv
@@ -45,6 +46,7 @@ If you want to follow the repo in order, this is the rough progression:
 4. `DAY4` - String methods, exception handling, file handling, and CSV writing practice.
 5. `DAY5` - Object-oriented programming with classes, constructors, instance variables, inheritance, polymorphism, and a simple CRUD class project.
 6. `DAY6` - Abstraction, encapsulation, access control concepts, stack implementation, string tasks, and a Tower of Hanoi simulation.
+7. `DAY7` - Time complexity notes, linear and binary search, linked list and queue practice, and a few small counting / pattern exercises.
 
 ### DAY2
 
@@ -111,6 +113,20 @@ More OOP practice plus simple data-structure and string exercises:
 - string tasks like reversing each word and simple character counting
 - an even-before-odd list arrangement task
 - a step-by-step Tower of Hanoi simulation
+
+### DAY7
+
+Introductory data-structure and algorithm practice focused on complexity and basic linear structures:
+
+- Big O time complexity notes
+- linear search and binary search
+- linked list basics and menu-driven linked list experimentation
+- queue implementation with enqueue, dequeue, peek, and delete operations
+- finding the largest number in a list
+- counting non-empty dictionary values
+- counting special characters and whitespace in a string
+- counting perfect squares in a list
+- a simple nested-loop practice snippet
 
 ## File Guide
 
@@ -245,6 +261,24 @@ Practice files for abstraction, encapsulation, stacks, and small logic problems.
 | `DAY6/task.py` | Rearranges input numbers so even numbers come before odd numbers |
 | `DAY6/towerofHanoi.py` | Simulates Tower of Hanoi moves step by step using three lists |
 | `DAY6/Day 6 notes.txt` | Notes on abstraction, encapsulation, and stack concepts |
+
+### DAY7
+
+Data-structure and algorithm practice focused on complexity, searching, and linear data structures.
+
+| File | Purpose |
+| --- | --- |
+| `DAY7/DAY 7.txt` | Notes on time complexity, stacks, queues, and linked list basics |
+| `DAY7/linearsearch.py` | Linear search implementation over a list |
+| `DAY7/binarysearch.py` | Binary search implementation for sorted arrays |
+| `DAY7/linkedlist.py` | Linked list node example and traversal practice |
+| `DAY7/menulinked.py` | Menu-driven linked list skeleton for adding and displaying nodes |
+| `DAY7/queue.py` | Menu-driven queue implementation with enqueue, dequeue, peek, and delete operations |
+| `DAY7/findbiggestnum.py` | Finds the largest value in a list |
+| `DAY7/dictionarykey.py` | Counts non-empty values in a dictionary |
+| `DAY7/secretmsg.py` | Counts special characters and whitespace in a string |
+| `DAY7/apparel.py` | Counts perfect squares in a user-input list |
+| `DAY7/quad.py` | Nested-loop practice example |
 
 ## Generated Files
 
