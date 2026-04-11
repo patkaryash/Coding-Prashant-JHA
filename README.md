@@ -25,7 +25,7 @@ A day-wise Python and problem-solving notebook with short notes, small runnable 
 | Item | Details |
 | --- | --- |
 | Primary language | Python |
-| Main focus | Python basics, OOP, DSA, regex, recursion, and trees |
+| Main focus | Python basics, OOP, DSA, regex, recursion, trees, and graph/problem-solving drills |
 | Learning style | Small scripts, revision notes, and hands-on practice |
 | File types | `.py`, `.txt`, `.csv`, `.jpg` |
 | Good for | Revision, beginner practice, and interview warm-up |
@@ -71,7 +71,7 @@ Coding-Prashant-JHA/
 | `DAY7` | Big O basics, searching, queues, linked lists, and logic problems |
 | `DAY8` | Matrix input, regex, pattern matching, and file checks |
 | `DAY9` | Recursion, trees, binary search trees, and related drills |
-| `DAY10` | Array-based problem solving and pair-difference counting |
+| `DAY10` | Graphs, comprehensions, number practice, and pair-difference counting |
 | `HACKERRANK` | Challenge-style counting and missing-number practice |
 
 ## Day Highlights
@@ -132,9 +132,11 @@ Coding-Prashant-JHA/
 
 ### DAY10
 
-- Pair-difference counting
-- Nested-loop array logic
-- Interview-style problem solving
+- Graph basics and adjacency list representation
+- List and dictionary comprehensions
+- Prime-number generation and compound interest
+- Datetime formatting
+- Pair-difference counting and nested-loop logic
 
 ### HACKERRANK
 
@@ -151,7 +153,13 @@ Coding-Prashant-JHA/
 - `DAY7/binarysearch.py` - search algorithm practice
 - `DAY8/regex.py` - regex practice
 - `DAY9/factorial.py` - recursive factorial
+- `DAY10/Datetime.py` - datetime formatting
+- `DAY10/checkprime.py` - prime-number practice
+- `DAY10/compoundinterest.py` - compound interest calculation
+- `DAY10/dictionarycompress.py` - dictionary comprehension practice
 - `DAY10/gift.py` - pair-difference logic
+- `DAY10/graph.py` - graph adjacency list implementation
+- `DAY10/listcompress.py` - list comprehension practice
 - `HACKERRANK/missingnum.py` - challenge-style array problem
 
 ## Notes Files
@@ -167,6 +175,7 @@ Each learning folder includes a short note file for quick revision:
 - `DAY7/DAY 7.txt`
 - `DAY8/DAY 8 notes.txt`
 - `DAY9/DAY 9.txt`
+- `DAY10/DAY10 Notes.txt`
 
 ## Practice Files
 
@@ -329,7 +338,14 @@ Each learning folder includes a short note file for quick revision:
 
 ### DAY10
 
+- `checkprime.py` - print prime numbers up to a given range
+- `compoundinterest.py` - compound interest calculation
+- `Datetime.py` - current date and time formatting
+- `dictionarycompress.py` - dictionary comprehension example
 - `gift.py` - pair-difference counting problem
+- `graph.py` - adjacency list graph implementation
+- `listcompress.py` - list comprehension example
+- `DAY10 Notes.txt` - revision notes
 
 ## HACKERRANK Practice
 

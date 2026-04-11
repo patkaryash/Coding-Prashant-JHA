@@ -1,13 +1,65 @@
-Graph consists of a finite set of vertices(or nodes) and a set of edges whih connect a pair or nodes
-if a graph is complete or almost complete we should use Adjacency matrix
-if the number or edges are few then we should use Adjacency list 
-                                                 
-   A  B  C  D  E
-A  0  1  1  1  0                               
-B  1  0  0  0  1
-C  1  0  0  1  0
-D  1  0  1  0  1
-E  0  1  0  1  0 
+# DAY 10 Notes
 
+## 1. Graphs
 
+- A graph is made of vertices (nodes) and edges.
+- Use an adjacency matrix for dense graphs.
+- Use an adjacency list for sparse graphs.
 
+Adjacency Matrix Example:
+
+```text
+    A  B  C  D  E
+A   0  1  1  1  0
+B   1  0  0  0  1
+C   1  0  0  1  0
+D   1  0  1  0  1
+E   0  1  0  1  0
+```
+
+`graph.py`
+
+- Uses a dictionary-based adjacency list.
+- `add_vertex()` creates a new vertex if it does not already exist.
+- `add_edge()` adds an edge from one vertex to another.
+- `print_graph()` displays the graph in a readable form.
+
+## 2. Pair Difference Problem
+
+`gift.py`
+
+- Counts ordered pairs where `prices[j] - prices[i] == k`.
+- Uses a nested loop, which is simple and easy to understand.
+- Good for practicing brute-force search on small inputs.
+
+## 3. Comprehensions
+
+`listcompress.py`
+
+- Builds a list of powers of 2 using list comprehension.
+
+`dictionarycompress.py`
+
+- Builds a dictionary of squares using dictionary comprehension.
+
+## 4. Number and Date Practice
+
+`checkprime.py`
+
+- Prints all prime numbers from `2` up to `n`.
+
+`compoundinterest.py`
+
+- Calculates compound interest using the formula:
+  `P * (1 + r / 100) ** t - P`
+
+`Datetime.py`
+
+- Shows how to format the current date and time with `datetime`.
+
+## Quick Revision
+
+- Dense graph -> adjacency matrix
+- Sparse graph -> adjacency list
+- Nested loops -> simple but slower
+- Comprehensions -> cleaner and shorter code
