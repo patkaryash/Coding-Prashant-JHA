@@ -27,3 +27,11 @@ Nodes in the last level are
 Perfect Binary Tree:
 All internal nodes have exavtly two nodes
 all leaf nodes are at the same level
+
+
+Creation of tree
+Insertion of nodes
+deletion of node   
+searcb for a value
+traverse all nodes
+deletion of tree
